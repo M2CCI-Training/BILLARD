@@ -1,0 +1,13 @@
+body {
+    text-align: center;
+    font-family: Verdana, Geneva, sans-serif;
+}
+canvas { 
+    border:1px solid;
+    background-color: greenyellow;
+}
+wrapper {
+    width: 800px;
+    margin:auto;
+    color: #d4fbf5;
+}
