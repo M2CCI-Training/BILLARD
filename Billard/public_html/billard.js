@@ -64,7 +64,11 @@ Queue.prototype.incliner = function (evt) {
     var mouse = getMousePos(this.canvas, evt);
     var x = mouse.x - this.x;
     var y = mouse.y - this.y;
-    this.alpha = Math.atan(y / x);
+    if (x < 0) {
+       this.alpha = Math.PI + Math.atan(y / x);   
+    }else{
+       this.alpha = Math.atan(y / x);
+       }
 };
 /**
  * 
