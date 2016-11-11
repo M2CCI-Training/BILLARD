@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Billard</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="billard.css" rel="stylesheet" type="text/css"/>
+        <script src="billard.js" type="text/javascript"></script>
+    </head>
+    <body onload="init()">
+        <header>
+            <h1>Jeu de Billard</h1>
+        </header>
+        <div id="wrapper">
+            
+            <!-- Zone contenant les éléments de contrôle -->
+            <div id="controls">
+                
+                <!-- Paramètres entrés par l'utilisateur -->
+                <span>Vitesse initiale : <input id="vinit" type="text" value="15"/></span><br/>
+                <span>Coefficient de frottement : <input id="coef" type="text" value="1"/> (en %)</span><br/>
+                <span>Vitesse seuil : <input id="vseuil" type="text" value="0.5"/></span><br/>
+                <span>Angle initial : <input id="ainit" type="text" value="30"/> (en degré)</span><br/>
+                <br/>
+                
+                <!-- Apply permet d'actuliser les paramètres,
+                     l'appui sur ce bouton réinitialise l'affichage. -->
+                <button id="apply">Apply</button>
+                
+                <!-- Active l'animation. -->
+                <button id="play">Play</button>
+                
+                <!-- Désactive l'animation. -->
+                <button id="stop" disabled="true">Stop</button>
+                
+            </div>
+            <!-- ======================================= -->
+            
+            <br/>
+            <canvas id="billard" width="600" height="300">
+                ---{ Canvas }---
+            </canvas>
+            <br/>
+            <div id="comment">
+                <p>
+                    Have Fun !
+                </p>
+                <br/>
+            </div>
+            
+        </div>
+    </body>
+</html>
+
+
