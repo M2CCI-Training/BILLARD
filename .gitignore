@@ -33,3 +33,4 @@ nbbuild/
 dist/
 nbdist/
 .nb-gradle/
+/BillardJava/JeuDuBillard/nbproject/private/
