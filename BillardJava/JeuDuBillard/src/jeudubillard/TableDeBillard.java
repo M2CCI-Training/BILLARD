@@ -7,10 +7,10 @@ package jeudubillard;
 
 /**
  * La table de jeu du billard
- * 
- * table : l'espace de jeu
+ * <p>
+ * table : l'espace de jeu<br>
  * jeu : les boules présentes sur la table
- * 
+ * </p>
  * @author bdelseny
  */
 public class TableDeBillard {

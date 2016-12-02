@@ -7,10 +7,10 @@ package jeudubillard;
 
 /**
  * Coordonnées d'un point dans l'espace
- * 
- * x : l'abscisse du point
+ * <p>
+ * x : l'abscisse du point<br>
  * y : l'ordonnée du point
- * 
+ * </p>
  * @author bdelseny
  */
 public class Position {

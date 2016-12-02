@@ -7,11 +7,11 @@ package jeudubillard;
 
 /**
  * Une boule de billard
- * 
- * centre : la position du centre de la boule sur la table de billard
- * vitesse : la vitesse de la boule
+ * <p>
+ * centre : la position du centre de la boule sur la table de billard<br>
+ * vitesse : la vitesse de la boule<br>
  * rayon : le rayon de la boule
- * 
+ * </p>
  * @author bdelseny
  */
 public class Boule {

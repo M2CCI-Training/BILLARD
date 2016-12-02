@@ -7,10 +7,10 @@ package jeudubillard;
 
 /**
  * L'espace de jeu du billard
- * 
- * tableDeJeu : l'espace sur lequel se déplacent les boules
+ * <p>
+ * tableDeJeu : l'espace sur lequel se déplacent les boules<br>
  * queue : la queue qui sert à jouer au billard
- * 
+ * </p>
  * @author bdelseny
  */
 public class Billard {

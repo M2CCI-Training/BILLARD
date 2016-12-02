@@ -6,11 +6,11 @@
 package jeudubillard;
 
 /**
- *Un rectangle
- * 
- * largeur : la largeur du rectangle
+ * Un rectangle
+ * <p>
+ * largeur : la largeur du rectangle<br>
  * longueur : la longueur du rectangle
- * 
+ * </p>
  * @author bdelseny
  */
 public class Rectangle {

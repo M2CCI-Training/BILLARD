@@ -7,9 +7,9 @@ package jeudubillard;
 
 /**
  *Un ensemble de boules de billard
- * 
+ * <p>
  * jdb : un tableau qui contient des boules de type Boule 
- * 
+ * </p>
  * @author bdelseny
  */
 public class JeuDeBoules {

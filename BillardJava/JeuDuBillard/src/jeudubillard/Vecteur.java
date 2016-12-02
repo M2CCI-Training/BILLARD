@@ -7,10 +7,10 @@ package jeudubillard;
 
 /**
  * Représentation d'un vecteur dans un espace
- * 
- * a : le cap du vecteur
+ * <p>
+ * a : le cap du vecteur<br>
  * n : la norme du vecteur
- * 
+ * </p>
  * @author bdelseny
  */
 public class Vecteur {
